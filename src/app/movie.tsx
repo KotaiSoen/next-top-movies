@@ -14,7 +14,7 @@ export default function Movie ({title, id, picture, releaseDate}: MovieType) {
 
     return (
         <div className="my-4">
-            <h1>{title}</h1>
+            <h1 className="text-2xl font-semibold">{title}</h1>
             <p>Release date: {releaseDate}</p>
             <Link href={`/${id}`}>  
             <Image
